@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +11,118 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+}
+
+ul {
+  display: block;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  color: #999999;
+}
+li {
+  display: block;
+  margin: 10px 0 0 0;
+}
+button {
+  border: none;
+  border-radius: 40px;
+  background: #292b2e;
+  color: #f9f9f9;
+  padding: 10px 37px;
+}
+
+input, textarea {
+  outline: none !important;
+} 
+
+.heading {
+  font-size: 3em;
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
+}
+
+.desc {
+  color: black;
+}
+
+.sec-header {
+  margin-left: 150px;
+  text-align: left;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.rec-arrow-right, .rec-arrow-left{
+  font-size: 2px;
+  outline: none !important;
+  background: lavender !important;
+}
+
+.khvUfi {
+  font-size: 1em !important;
+  width: 30px !important;
+  height: 30px !important;
+  min-width: 30px !important;
+  line-height: 5px !important;
+}
+
+.eRmJbc {
+  font-size: 1em !important;
+  width: 30px !important;
+  height: 30px !important;
+  min-width: 30px !important;
+  line-height: 5px !important;
+}
+
+.khvUfi:hover:enabled, .khvUfi:focus:enabled {
+  color: #fff !important;
+  background-color: #1c2955 !important;
+  box-shadow: 0 0 2px 0 #333;
+}
+
+@media screen and (max-width: 760px) {
+  .heading {
+    font-size: 2.6em;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .desc {
+    color: black;
+  }
+  
+  .sec-header {
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  .rec-arrow-right, .rec-arrow-left {
+    display: none;
+  }
+}
+
+/* @media screen and (min-width: 460px) {
+  .heading {
+    font-size: 1.6em;
+  }
+} */

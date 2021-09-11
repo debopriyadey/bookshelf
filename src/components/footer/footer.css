@@ -1,0 +1,21 @@
+.footer {
+    background-color: #1c2955;
+    text-align: left;
+    color: lavender;
+}
+
+.socials {
+    display: flex;
+    margin-block: 30px;
+}
+
+.icon {
+    font-size: 40px;
+    margin-right: -20px;
+}
+
+.sponcer-btn {
+    border-radius: 10px;
+    background-color: #e0e5ef;
+    color: #1c2955
+}

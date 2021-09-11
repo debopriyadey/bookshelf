@@ -1,0 +1,48 @@
+.contact-form {
+    margin: 0 auto;
+    margin-top: -200px;
+    margin-bottom: 100px;
+    max-width: 1100px;
+}
+
+.contact-card {
+    background-color: #fff;
+    box-shadow: 0px 0px 87px 1px;
+    border-radius: 30px;
+}
+
+.contact-info-card {
+    background-color: #ffda00;
+    text-align: left;
+    margin: 25px;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.contact-info-header {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.contact-form-container {
+    margin: 10px;
+    padding: 50px;
+}
+
+.contact-input-field {
+    border-radius: 10px;
+    padding-block: 15px;
+    padding-left: 8px;
+    margin-block: 10px;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(199, 194, 194);
+    border: 3px solid rgb(182, 181, 181);
+}
+
+
+.submit-btn {
+    border-radius: 20px;
+}

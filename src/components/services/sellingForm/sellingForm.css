@@ -1,0 +1,56 @@
+.shareWrapper {
+    border: 2px rgb(182, 181, 181) dashed;
+    border-radius: 20px;
+    height: 250px;
+    width: 200px;
+    padding: 2px;
+}
+
+.preview-img {
+    border-radius: 20px;
+    height: 240px;
+    width: 190px;
+}
+
+.sell-pic-btn {
+    padding: 5px 20px;
+    background-color: #FFDD40;
+    border-radius: 20px;
+}
+
+.sell-submit-button {
+    border-radius: 20px;   
+}
+
+.sell-cancel-svg {
+    position: absolute !important;
+    top: 40px;
+}
+
+.sell-cancel-model {
+    position: absolute !important;
+    top: -20px;
+    right: -20px;
+    margin: 20px;
+}
+
+.selling-form-input-field {
+    border-radius: 10px;
+    padding-block: 10px;
+    padding-left: 8px;
+    margin-block: 6px;
+    width: 100%;
+    font-size: 13px;
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(199, 194, 194);
+    border: 3px solid rgb(182, 181, 181);
+}
+
+@media screen and (max-width: 770px) {
+    .sell-cancel-model {
+        position: absolute !important;
+        top: 10px;
+        right: 0px;
+        margin: 20px;
+    } 
+}

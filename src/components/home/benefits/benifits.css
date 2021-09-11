@@ -1,0 +1,33 @@
+.benefits {
+  background-image: url('../../../images/Benifits.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.benefit-main {
+  margin-left: 100px;
+}
+
+.benefit-heading {
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+}
+
+.benifit-card {
+  text-align: left;
+  background-color: lavender;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.benifit-active {
+  background-color: #1c2955;
+  color: lavender;
+}
+
+.benefit-card-title {
+  font-size: 20px;
+  font-weight: 600;
+}

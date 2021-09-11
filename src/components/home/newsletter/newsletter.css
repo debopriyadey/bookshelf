@@ -1,0 +1,74 @@
+.newsletter {
+    padding: 80px 0;
+    background: #ffdd40
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2
+}
+
+.content-tuned {
+    margin-bottom: 34px !important;
+    color: #fff
+}
+
+.subscribe-now {
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+}
+
+.input-group {
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 30px 0px 0px 30px !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border: 2px solid #243c4f;
+    border-color: none
+}
+
+.btn {
+    min-height: 50px;
+    background-color: #e0e5ef !important;
+    border-radius: 0px 30px 30px 0px !important;
+    color: #fff;
+    font-weight: 300
+}
+
+.btn:hover {
+    background: rgb(94, 229, 231);
+    color: #fff
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0, 123, 255, .25) !important
+}
+
+.unsubscribe-link {
+    text-decoration: none !important;
+    font-size: 13px;
+    color: #fff
+}
+
+.unsubscribe-link:hover {
+    text-decoration: none !important;
+    color: #fff
+}

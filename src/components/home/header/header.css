@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;700&display=swap');
+.header {
+  color: #ffffff;
+  text-align: left;
+    background-image: url('../../../images/Bookshelf_Home.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 115vh;
+    margin-top: -100px;
+  }
+
+  .header-content {
+    margin-top: 300px;
+  }
+  
+  .header-text {
+    font-size: 2.4em;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4);
+    text-shadow: 0px 8px 13px rgba(0,0,0,0.1);
+    text-shadow: 0px 18px 23px rgba(0,0,0,0.1);
+  }
+  
+  .header-desc {
+    font-size: 3.4em;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4);
+    text-shadow: 0px 8px 13px rgba(0,0,0,0.1);
+    text-shadow: 0px 18px 23px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    margin-right: 40px;
+  }
+
+  .start-btn {
+    border-radius: 20px;
+    box-shadow: 3px 3px;
+    transition: 0.3s;
+  }
+
+  .start-btn:hover {
+    box-shadow: 0px 0px;
+  }
+  
+  .stats-desc {
+    margin-left: 15px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .header-content {
+      margin-top: 200px;
+    }
+
+    .header-text {
+      font-size: 1.4em;
+    }
+
+    .header-desc {
+      font-size: 2.4em;
+    }
+  }

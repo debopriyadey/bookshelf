@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body {
+  background-color: #fff;
+}
+
+hr {
+    opacity: 1 !important;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link {
+    color: #3d2ba9;
+}
+
+.signup {
+    background-color: rgb(253, 253, 253);
+    background-image: url('../../../svg/signupbg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.signup-card {
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-block: 18px;
+}
+
+.signup-card-visual {
+    background-color: transparent;
+    /* background-image: url('../../../svg/signupbg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-block: 60px;
+    box-shadow: 0px 5px 10px;
+}
+
+.signup-card-form {
+    border-radius: 30px;
+    padding: 20px; 
+    align-self: center;
+    justify-content: center;  
+}
+
+.signup-form-container {
+    margin-inline: 100px;
+    padding: 20px;
+    border-radius: 30px;
+    color: rgb(20, 20, 20);
+}
+
+.signup-form-logo {
+    padding: 2px;
+}
+
+.signup-logo-text {
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    color: #352FB9;
+}
+
+.signup-input-field {
+    border-radius: 5px;
+    padding-block: 10px;
+    margin-block: 10px;
+    padding-left: 20px;
+    width: 100%;
+    font-size: 15px;
+    color: #13151b;
+    border: 2px solid gray;
+}
+
+.confirm-pass-error {
+    color: red;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+.text-checkbox {
+    display: flex;
+}
+
+.checkbox-field {
+    border-radius: 5px;
+    margin-block: 5px;  
+    border: 2px solid gray; 
+    height: 18px;
+    width: 18px;
+}
+
+.checkbox-label {
+    font-weight: 500;
+}
+
+
+.submit {
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.option-btn {
+    border: 2px rgb(245, 245, 245) solid;
+    box-shadow: 2px 3px 3px 0px grey;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.option-btn:hover {
+    box-shadow: 1px 1px 1px 0px grey;
+}
+
+.option-text {
+    font-weight: 400;
+    color: rgb(19, 18, 18);
+}
+
+.back-arrow {
+    cursor:pointer;
+    height: 60px;
+    width: 80px;
+    line-height: 60px;
+    position: absolute;
+    top: 58px;
+    left: 90px;
+    color: #fff;
+    font-size: 60px;
+    text-decoration: none;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+.label {
+    font-family: 'Benne', serif;
+    font-size: large;
+    text-align: left;
+}
+
+.submit {
+    background-color: #1c2955;
+    border: none;
+    width: 100%;
+    border-radius: 15px;
+    padding-block: 10px;
+    margin-block: 10px;
+    padding-left: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+
+.line{
+    border:2px solid black;
+}
+
+.line-text{
+    width: 20px;
+    background: white;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-top: -31px;
+    color: grey;
+}
+
+@media screen and (max-width: 1200px) {
+    .signup {
+        overflow-x: hidden;
+    }
+
+    .signup-card-visual {
+        display: none;
+    }
+
+    .signup-form-container {
+        margin-inline: 20px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .signup {
+        height: 100vh;
+    }
+
+    .signup-form-container {
+        margin-inline: 0px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .card-visual {
+        margin: 0px;
+    }
+
+    .signup-form-container {
+        margin-inline: 0px;
+    }
+
+    .back-arrow {
+        cursor:pointer;
+        height: 60px;
+        width: 80px;
+        line-height: 60px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: #ffdd40;
+        font-size: 40px;
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .back-arrow {
+        cursor:pointer;
+        height: 60px;
+        width: 80px;
+        line-height: 60px;
+        position: absolute;
+        top: 0px;
+        left: 20px;
+        color: #ffdd40;
+        font-size: 30px;
+    }
+}
+
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .visual-content {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+    }
+  }
